@@ -7,15 +7,67 @@
 //
 
 import UIKit
-
+import ElongationPreview
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    
+    
+    
+        var window: UIWindow?
 
-
+    static var SharedInstance = AppDelegate()
+    var sourceUserAgent = ""
+    func userAgent()
+    {
+        /*
+        UIWebView* webView = [[UIWebView alloc] initWithFrame:CGRectZero];
+        NSString* secretAgent = [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
+ */
+        let webview =  UIWebView(frame: CGRect.zero)
+        let userAgent = webview.stringByEvaluatingJavaScript(from: "navigator.userAgent")
+        
+        AppDelegate.SharedInstance.sourceUserAgent = userAgent!
+        
+        print(AppDelegate.SharedInstance.sourceUserAgent)
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+      // UserDefaults.standard.register(defaults: ["UserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11"])
+
+        self.userAgent()
+        
+        // Add dark view behind the status bar
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1) {
+            let view = UIView(frame: UIApplication.shared.statusBarFrame)
+            view.backgroundColor = UIColor.black
+            view.alpha = 0.4
+            self.window?.addSubview(view)
+            self.window?.bringSubview(toFront: view)
+        }
+        
+        // Customize ElongationConfig
+        var config = ElongationConfig()
+        config.scaleViewScaleFactor = 0.9
+        config.topViewHeight = EnglishSocietyConfigurateVaribles.SharedInstance.Screenwidth
+        config.bottomViewHeight = 170
+        config.bottomViewOffset = 20
+        config.parallaxFactor = 100
+        config.separatorHeight = 0.5
+        config.separatorColor = UIColor.white
+        
+        // Durations for presenting/dismissing detail screen
+        config.detailPresetingDuration = 0.4
+        config.detailDismissingDuration = 0.4
+        
+        // Customize behaviour
+        config.headerTouchAction = .collpaseOnBoth
+        
+        // Save created appearance object as default
+        ElongationConfig.shared = config
+        
+
+        
         return true
     }
 

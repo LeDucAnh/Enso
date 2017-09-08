@@ -14,12 +14,10 @@ Check this project on dribbble.
 Xcode 8
 iOS 8.x+
 Swift 3
-Installation
 
+## Installation
 CocoaPods
-
 use_frameworks! 
-
 pod 'Enso'
 
 CocoaPods v1.1.0 or later required

@@ -1,6 +1,6 @@
 ## Enso
 
-[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)]() [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Yalantis/Segmentio/blob/master/LICENSE) ![Swift 3.x](https://img.shields.io/badge/Swift-3.0-orange.svg) 
+[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)]() ![Swift 3.x](https://img.shields.io/badge/Swift-3.0-orange.svg) 
 
 
 ![Preview](https://github.com/Yalantis/Segmentio/blob/master/Assets/animation.gif)

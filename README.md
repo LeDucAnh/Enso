@@ -1,5 +1,8 @@
 ## Enso
 
+
+## GIF Preview
+
 [![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)]() ![Swift 3.x](https://img.shields.io/badge/Swift-3.0-orange.svg) 
 
 

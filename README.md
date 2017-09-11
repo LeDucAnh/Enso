@@ -21,7 +21,7 @@ Enso is my social networking application that is currently being developed . The
 The App parse the html from source then display to the tableview 
 Utilize a few third party dependency
 
-!['SDWebImage']
+!['SDWebImage'](https://github.com/cruisediary/Pastel)
 ![Pastel]
 ![YNSearch]
 ![Whisper]

@@ -18,7 +18,7 @@ Preview
 ## Info
 Enso is my social networking application that is currently being developed . There is still a lot of work to do . 
 ## Technical Info
-The App parse the html from source then display to the tableview 
+The App parse the html from source then display to the tableview
 Utilize a few third party dependency
 
 [SDWebImage](https://github.com/rs/SDWebImage)

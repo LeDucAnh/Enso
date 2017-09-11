@@ -32,6 +32,7 @@ Utilize a few third party dependency
 [URLEmbeddedView](https://github.com/marty-suzuki/URLEmbeddedView)
 
 ...
+
 More dependencies are detailedly included in the podfile .  
 
 

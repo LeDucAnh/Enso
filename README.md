@@ -3,7 +3,14 @@
 [![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)]() ![Swift 3.x](https://img.shields.io/badge/Swift-3.0-orange.svg) 
 
 
-![Preview](https://github.com/LeDucAnh/Enso/blob/master/EnsoSearhDemo.gif)
+![Search Preview](https://github.com/LeDucAnh/Enso/blob/master/EnsoSearhDemo.gif)
+![Search Scroll Preview](https://github.com/LeDucAnh/Enso/blob/master/EnsoDemoScroll.gif)
+![Search Detail Preview](https://github.com/LeDucAnh/Enso/blob/master/EnsoSearchDetail.gif)
+
+
+
+
+
 
 
 Preview

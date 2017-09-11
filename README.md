@@ -1,6 +1,6 @@
 ## Enso
 
-![Video Demo URL](https://drive.google.com/file/d/0B-GGRDa6SAXUOWVBUHIzcUlEZVE/view?usp=sharing)
+[Video Demo URL](https://drive.google.com/file/d/0B-GGRDa6SAXUOWVBUHIzcUlEZVE/view?usp=sharing)
 
 ## GIF Preview
 

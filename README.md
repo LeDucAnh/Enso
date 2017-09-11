@@ -3,7 +3,7 @@
 [![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)]() ![Swift 3.x](https://img.shields.io/badge/Swift-3.0-orange.svg) 
 
 
-![Preview](https://github.com/Yalantis/Segmentio/blob/master/Assets/animation.gif)
+![Preview](https://media.giphy.com/media/xwsPEWIoxSlSU/source.mp4)
 
 
 Preview
